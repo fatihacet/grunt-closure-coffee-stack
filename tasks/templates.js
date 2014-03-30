@@ -14,7 +14,7 @@ module.exports = function (grunt) {
 
       var options = this.options({
         soyToJsJarPath: './bower_components/closure-templates/SoyToJsSrcCompiler.jar',
-        outputPathFormat: '{INPUT_DIRECTORY}/{INPUT_FILE_NAME_NO_EXT}.js',
+        outputPathFormat: this.data.dest + '/{INPUT_FILE_NAME_NO_EXT}.js',
         shouldGenerateJsdoc: true,
         bidiGlobalDir: 1,
         codeStyle: 'concat',
