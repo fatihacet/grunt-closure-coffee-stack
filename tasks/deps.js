@@ -9,7 +9,7 @@ module.exports = function (grunt) {
   var path = require('path');
   var cache = {};
 
-  grunt.registerMultiTask('esteDeps', 'Google Closure dependency calculator',
+  grunt.registerMultiTask('deps', 'Google Closure dependency calculator',
     function () {
 
       var options = this.options({

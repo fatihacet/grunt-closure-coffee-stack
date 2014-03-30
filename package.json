@@ -1,21 +1,18 @@
 {
-  "name": "grunt-este",
-  "version": "2.5.1",
+  "name": "grunt-closure-coffee-stack",
+  "version": "0.0.1",
   "description": "Everything you need for Google Closure. Precise configuration, Soy templates, localization, TDD stack, and even CoffeeScript support. File watcher included.",
-  "keywords": [
-    "Closure",
-    "CoffeeScript",
-    "Compiler",
-    "Este",
-    "Google",
-    "gruntplugin",
-    "Mocha",
-    "Soy"
-  ],
+  "keywords": [ "Closure", "CoffeeScript", "Compiler", "Google", "Soy" ],
   "author": "Daniel Steigerwald <daniel@steigerwald.cz>",
+  "contributors": [
+    {
+      "name": "Fatih Acet",
+      "email": "acetfatih@gmail.com"
+    }
+  ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/steida/grunt-este.git"
+    "url" : "https://github.com/fatihacet/grunt-closure-coffee-stack.git"
   },
   "dependencies": {
     "chai": "~1.9.0",

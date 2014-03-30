@@ -9,7 +9,7 @@ module.exports = function (grunt) {
 
   var detectFastJavaFlags = require('../lib/detectfastjavaflags');
 
-  grunt.registerMultiTask('esteTemplates', 'Google Closure Templates compiler',
+  grunt.registerMultiTask('templates', 'Google Closure Templates compiler',
     function () {
 
       var options = this.options({

@@ -16,7 +16,7 @@ module.exports = function (grunt) {
   global.assert = require('chai').assert;
   global.sinon = require('sinon');
 
-  grunt.registerMultiTask('esteUnitTests', 'Super-fast unit testing for Google Closure with Mocha in Node.js',
+  grunt.registerMultiTask('tests', 'Super-fast unit testing for Google Closure with Mocha in Node.js',
     function() {
 
       var options = this.options({

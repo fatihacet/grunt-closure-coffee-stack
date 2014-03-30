@@ -12,7 +12,7 @@ module.exports = function (grunt) {
   var path = require('path');
   var messages = require('../lib/messages');
 
-  grunt.registerMultiTask('esteExtractMessages', 'Extract messages defined with goog.getMsg',
+  grunt.registerMultiTask('extractMessages', 'Extract messages defined with goog.getMsg',
     function() {
 
       var options = this.options({

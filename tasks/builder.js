@@ -16,7 +16,7 @@ module.exports = function (grunt) {
   var Tempfile = require('temporary/lib/file');
   var wrench = require('wrench');
 
-  grunt.registerMultiTask('esteBuilder', 'Builder for Google Closure application',
+  grunt.registerMultiTask('builder', 'Builder for Google Closure application',
     function () {
 
       var options = this.options({
