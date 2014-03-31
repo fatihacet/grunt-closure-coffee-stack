@@ -1,7 +1,7 @@
 'use strict';
 
 module.exports = function(grunt) {
-  var sprite = require('node-sprite');
+  var sprite = require('node-sprites');
   grunt.registerMultiTask('sprites', 'Generate sprite images', function() {
     var done  = this.async();
     var files = this.data.files
