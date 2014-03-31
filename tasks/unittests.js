@@ -48,11 +48,6 @@ module.exports = function (grunt) {
       require(bootstrapPath);
       require(depsPath);
 
-      // Lazy preload React.
-      // TODO: Don't embed React. It sucks in Node.js. Fix it for Closure.
-      goog.require('este.thirdParty.react');
-      React = React || goog.global.React;
-
       // Mock browser.
       var doc = jsdom();
       global.window = doc.parentWindow;
